@@ -22,14 +22,17 @@ body {
 	border-color: #FF3988;
 	border-radius: 12px;
 	display: inline-block;
-	padding: 15px;
+	padding: 20px;
 }
 
 .pic-with-caption {
 	display: block;
 	width: 480px;
 	float: left;
-	margin: 5px;
+}
+
+.space-on-right {
+	margin-right: 20px;
 }
 
 h1 {
@@ -37,6 +40,8 @@ h1 {
 	background-color: #66EBBF;
 	font-size: 4em;
 	padding: 15px;
+	margin: 0px;
+	margin-bottom: 20px;
 	display: block;
 	font-weight: bold;
 }
