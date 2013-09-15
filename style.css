@@ -1,0 +1,61 @@
+/* pink FFD1F8 */
+/* teal 66EBBF */
+/* sky blue C1FBFF */
+/* hot pink FF3988 */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gudea', sans-serif;
+}
+
+.outer {
+	width: 1024px;
+	margin: 0 auto;
+	display: block !important;
+}
+
+.roundy {
+	border: 2px solid;
+	border-color: #FF3988;
+	border-radius: 12px;
+	display: inline-block;
+	padding: 15px;
+}
+
+.pic-with-caption {
+	display: block;
+	width: 480px;
+	float: left;
+	margin: 5px;
+}
+
+h1 {
+	color: #FFD1F8;
+	background-color: #66EBBF;
+	font-size: 4em;
+	padding: 15px;
+	display: block;
+	font-weight: bold;
+}
+
+img {
+	margin: 15px auto;
+	max-width: 430px;
+	display: block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
