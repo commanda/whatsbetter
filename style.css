@@ -9,12 +9,14 @@
 
 body {
 	font-family: 'Gudea', sans-serif;
+	background-color: #C1FBFF;
 }
 
 .outer {
 	width: 1024px;
-	margin: 0 auto;
+	margin: 20 auto;
 	display: block !important;
+	background-color: white;
 }
 
 .roundy {
